@@ -22,7 +22,6 @@
 				continue;
 
 			putchar(',');
-			putchar(' ');
 
 			}
 		}
