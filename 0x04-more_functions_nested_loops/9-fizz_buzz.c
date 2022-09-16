@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the numbers from 1-100, but for multiples of three,
- * fizz is printed instead of the number, for multiples of five, 
+ * fizz is printed instead of the number, for multiples of five,
  * buzz, and for multiples of both three and five, fizzbuzz.
  *
  * Return: Always 0.
