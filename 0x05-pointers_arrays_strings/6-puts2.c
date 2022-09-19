@@ -4,7 +4,7 @@
  * puts2 - Print one char out of two of a string.
  * @str: The string containging characters.
  */
-void putss2(char *str)
+void puts2(char *str)
 {
 	int index = 0, len = 0;
 
