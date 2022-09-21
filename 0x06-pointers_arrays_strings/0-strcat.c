@@ -16,7 +16,7 @@ char *strcat(char *dest, const char *src)
 	c = d = 0;
 	while (*(dest + c))
 		c++;
-	while (d < n&& *(src + d))
+	while (d < n && *(src + d))
 	{
 		*(dest + c) = *(src +d);
 		c++;
