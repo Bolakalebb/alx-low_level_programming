@@ -4,7 +4,7 @@
  *  _strcmp - compares two strings
  *  @s1: first string
  *  @s2: second string.
- *  
+ *
  *  Return: If str1 < str2, the negative difference of the first
  *  unmatched characters.
  *  If str1 == str2, 0
