@@ -9,8 +9,8 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int srclen = 0, i = = 0;
-	char *temp = dest, *stat = src;
+	int srclen = 0, i = 0;
+	char *temp = dest, *start = src;
 
 	while (*src)
 	{
@@ -18,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 		src++;
 	}
 
-	srclen++
+	srclen++;
 
 	if (n > srclen)
 			n = srclen;
