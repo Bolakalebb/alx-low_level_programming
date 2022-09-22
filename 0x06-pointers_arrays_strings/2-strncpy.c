@@ -2,24 +2,31 @@
 
 /**
  * _strncpy - A function that copies a string.
- * @dest: The buffer storing the string copy.
- * @src: The source string.
- * @n: The maximum number of bytes to be copied from src.
- *
- * Rturn: A pointer to the resulting string dest.
+ * @dest: an input string
+ * @src: an input string.
+ * @n: an input integer
+ * Rturn: A pointer to the resulting string.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
+	int srclen = 0, i = = 0;
+	char *temp = dest, *stat = src;
 
-	while (src[index++])
-		src_len++;
+	while (*src)
+	{
+		srclen++;
+		src++;
+	}
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
+	srclen++
 
-	for (index = src_len; index < n; index++)
-		dest[index] = '\0';
+	if (n > srclen)
+			n = srclen;
 
-	return (dest);
+	src = start;
+
+	for (; i < n; i++)
+		*dest++ = *src++;
+	
+	return (temp);
 }
