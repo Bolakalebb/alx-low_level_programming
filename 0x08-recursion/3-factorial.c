@@ -2,10 +2,8 @@
 
 /**
  * Factorial - Returns factorial of a given number.
- * @n: The number to findit's factorial.
- *
- * Return: If n > 0 - the factorial of n
- * If n < 0 - 1 to indicate an error.
+ * @n: The input integer
+ * Return: The factorial of n.
  */
 int factorial(int n)
 {
